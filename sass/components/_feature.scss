@@ -1,0 +1,28 @@
+.section-feature {
+  padding-bottom: 0px;
+}
+.feature-list .feature-list__item + .feature-list__item {
+  margin-left: 30px;
+}
+
+.feature-list__content {
+  display: flex;
+  height: 120px;
+  background-color: var(--button-no-active);
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--H-and-header);
+}
+
+.feature-list__text {
+  margin-top: 0;
+  line-height: 1.71;
+}

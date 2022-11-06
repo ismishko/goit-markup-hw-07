@@ -1,0 +1,19 @@
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  display: block;
+}
+
+.header-navigation__logo {
+  color: var(--H-and-header);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+
+.header-navigation__logo--blue {
+  color: var(--logo-and-hover);
+}
