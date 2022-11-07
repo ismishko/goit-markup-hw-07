@@ -1,5 +1,8 @@
-.team-list .team-list__item + .team-list__item {
+.team-list__item {
   margin-left: 30px;
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
 .team-section--greybgc {
@@ -50,12 +53,11 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-size 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sociallinks-list__icon:hover,
-.sociallinks-list__icon:focus {
-  background-color: var(--logo-and-hover);
-  background-size: 100%;
-  border-radius: 50px;
-  fill: var(--background-color);
+  &:hover,
+  :focus {
+    background-color: var(--logo-and-hover);
+    background-size: 100%;
+    border-radius: 50px;
+    fill: var(--background-color);
+  }
 }
