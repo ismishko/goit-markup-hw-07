@@ -177,17 +177,13 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-navigation__list:hover {
-  color: var(--logo-and-hover);
-}
-.header-navigation__list:focus {
+.header-navigation__list:hover,
+.header-navigation__list :focus {
   color: var(--logo-and-hover);
 }
 
-.header-navigation__link:hover {
-  color: var(--logo-and-hover);
-}
-.header-navigation__link:focus {
+.header-navigation__link:hover,
+.header-navigation__link :focus {
   color: var(--logo-and-hover);
 }
 
